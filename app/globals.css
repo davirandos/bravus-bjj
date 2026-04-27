@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@300;400;500&display=swap');
+@import "tailwindcss";
+
+:root {
+  --red: #C8102E;
+  --black: #0A0A0A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #0A0A0A;
+  color: #F0EDE8;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+select option {
+  background: #1E1E1E;
+  color: #F0EDE8;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
